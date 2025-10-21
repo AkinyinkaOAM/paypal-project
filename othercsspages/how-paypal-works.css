@@ -121,7 +121,7 @@ nav{
     .logo{
         width: 100px;
     }
-} 
+}
 section{
     width: 100%;
 }
@@ -131,7 +131,7 @@ section{
 }
 .txt1{
     position: absolute;
-    top: 400px;
+    top: 300px;
     right: 400px;
     font-size: 36px;
     color: white;
@@ -149,124 +149,92 @@ section{
     color: white;
     font-size: 16px;
 }
-.txt2{
-    position: absolute;
-    color: white;
-    position: absolute;
-    left: 500px;
-    bottom: 160px;
-}
 .sect2{
     border: thin solid black;
-    height: 50vh;
-    position: relative;
-    background-color: #FFFFFF;
-    
-}
-.pp{
-    font-size: 32px;
-    position: absolute;
-    top: 20px;
-    left: 300px;
-}
-.sect2-img{
-    position: absolute;
-    top: 100px;
-    left: 500px;
-}
-.ind{
-    font-size: 22px;
-    position: absolute;
-    top: 200px;
-    left: 500px;
-} 
-.fin{
-    font-size: 18px;
-    position: absolute;
-    bottom: 100px;
-    left: 300px;
-}
-.sect2-btn{
-    padding: 20px 60px;
-    border-radius: 30px;
-    border: thin solid #0070BA;
-    position: absolute;
-    bottom: 10px;
-    left: 450px;
-}
-
-
-
-
-
-
-
-/* -----media query----- */
-.sect3{
-    height: 70vh;
-    background-color: #F7F9FA;    
-}
-.sectp31{
-    border: thin solid red;
-    padding: 70px 400px 30px;
-    font-size: 32px;
+    padding: 10px 50px 0px 100px;
     border: none;
 }
-.sectp32{
-    border: thin solid blue;
-    padding: 20px 600px 0px;
+.sect2p1{
+    border: 2px solid blue;
+    padding: 20px auto;
+    text-align: center;
     border: none;
+}
+.sect2p2{
+    border: 2px solid blue;
+    padding: 50px 10px 0px;
+    text-align: center;
+    border: none;
+}
+.sect2-lst{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
 }
 .sect3-list{
     display: flex;
     justify-content: space-around;
-    border: thin solid red;
-    padding: 60px;
-    border: none;
-}
-.sect3-btn{
-    padding: 20px 80px;
-    border-radius: 40px;
-    background-color: transparent;
-    border-color: #0070BA;
-    color: #0070BA;
-    border: thin solid #0070BA;
-    /* border: none; */
-    margin-bottom: 20px;
 }
 .div3{
     border: thin solid black;
-    padding: 0px 500px;
+    padding: 10px 400px;
     border: none;
 } 
+.sect3-btn{
+    padding: 20px 100px;
+    border-radius: 40px;
+    background-color: transparent;
+    border-color: #0070BA;
+    border: thin solid #0070BA;
+    margin-bottom: 20px;
+}
 .anchor3{
     color: #0070BA;
 }
 .sect4{
-    background-color: #003087;
-}
-.mainp{
-    border: thin solid red;
-    padding: 80px 280px 40px 280px;
-    font-size: xx-large;
-    color: #FFFFFF;
-    border: none;
-}
-.maindiv{
-    display: flex;
-    justify-content: space-around;
-}
-.secth5{
-    font-size: 32px;
-    color: white;
+    border: thin solid #0070BA;
+    padding: 50px 20px;
+    background-color: #0050A0;
 }
 .sect4p{
-    font-size: 18px;
+    border: 2px solid red;
+    padding: 20px 0px 15px 0px;
+    text-align: center;
+    border: none;
+    color: white;
+}
+.sect4-txt{
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+}
+.sect4lp1 {
     color: #FFFFFF;
 }
-.sect4a{
+.sect4lp2 {
     color: #FFFFFF;
-} 
+}
+.sect4lp3a{
+    color: #FFFFFF;
+}
+.sect4mp1 {
+    color: #FFFFFF;
+}
+.sect4mp2 {
+    color: #FFFFFF;
+}
+.sect4mp3a{
+    color: #FFFFFF;
+}
+.sect4rp1  {
+    color: #FFFFFF;
+}
+.sect4rp2{
+    color: #FFFFFF;
+}
+.sect4rp3a{
+    color: #FFFFFF;
+}
 .sect5{
     border: 2px solid green;
     padding: 100px 500px;
@@ -274,7 +242,7 @@ section{
 }
 .secth5{
     border: thin solid black;
-    padding: 10px 20px;
+    padding: 10px 10px;
     color: black;
     border: none;
 }

@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    list-style-type: none;
+    /* list-style-type: none; */
 }
 nav{
     display: flex;
@@ -121,172 +121,123 @@ nav{
     .logo{
         width: 100px;
     }
-} 
+}
 section{
     width: 100%;
 }
 .hero-img{
     position: relative;
-    height: 75vh;
+    height: 68vh;
 }
 .txt1{
     position: absolute;
-    top: 400px;
-    right: 400px;
+    top: 200px;
+    left: 100px;
     font-size: 36px;
-    color: white;
-}
-.hero-btn{
-    position: absolute;
-    padding: 15px 80px;
-    border-radius: 40px;
-    border: none;
-    background-color: #0070BA;
-    position: absolute;
-    bottom: 200px;
-    left: 500px;
-    right: 500px;
-    color: white;
-    font-size: 16px;
+    color: black;
 }
 .txt2{
     position: absolute;
-    color: white;
+    color: black;
     position: absolute;
-    left: 500px;
+    left: 100px;
+    bottom: 320px;
+}
+.hero-btn{
+    position: absolute;
+    padding: 10px 80px;
+    border-radius: 40px;
+    border: none;
+    background-color: #0070BA;
+    position: absolute;
     bottom: 160px;
+    left: 100px;
+    color: white;
+    font-size: 16px;
 }
 .sect2{
-    border: thin solid black;
     height: 50vh;
-    position: relative;
-    background-color: #FFFFFF;
-    
 }
-.pp{
-    font-size: 32px;
-    position: absolute;
-    top: 20px;
-    left: 300px;
-}
-.sect2-img{
-    position: absolute;
-    top: 100px;
-    left: 500px;
-}
-.ind{
-    font-size: 22px;
-    position: absolute;
-    top: 200px;
-    left: 500px;
-} 
-.fin{
-    font-size: 18px;
-    position: absolute;
-    bottom: 100px;
-    left: 300px;
-}
-.sect2-btn{
-    padding: 20px 60px;
-    border-radius: 30px;
-    border: thin solid #0070BA;
-    position: absolute;
-    bottom: 10px;
-    left: 450px;
-}
-
-
-
-
-
-
-
-/* -----media query----- */
-.sect3{
-    height: 70vh;
-    background-color: #F7F9FA;    
-}
-.sectp31{
-    border: thin solid red;
-    padding: 70px 400px 30px;
-    font-size: 32px;
-    border: none;
-}
-.sectp32{
-    border: thin solid blue;
-    padding: 20px 600px 0px;
-    border: none;
-}
-.sect3-list{
+.sub-section{
     display: flex;
     justify-content: space-around;
-    border: thin solid red;
-    padding: 60px;
+    background-color: #333333;
+    color: #FFFFFF;
+    height: 17vh;
+    align-items: center;
+}
+.sect2b{
+    height: 30vh;
+    color: #FFFFFF;
+    align-items: center;
+    border: 2px solid red;
     border: none;
 }
-.sect3-btn{
-    padding: 20px 80px;
-    border-radius: 40px;
-    background-color: transparent;
-    border-color: #0070BA;
-    color: #0070BA;
-    border: thin solid #0070BA;
-    /* border: none; */
-    margin-bottom: 20px;
+.sect2txt1{
+    color: #333333;
+    text-align: center;
 }
-.div3{
-    border: thin solid black;
-    padding: 0px 500px;
-    border: none;
-} 
-.anchor3{
-    color: #0070BA;
+.sect2txt2{
+    color: #333333;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sect3-img{
+    height: 68vh;
+    position: relative;
+}
+.sect3-txt{
+    position: absolute;
+    top: 1200px;
+    right: 200px;
+}
+.sect3-txt1{
+    font-size: 24px;
+}
+.div2{
+    background-color: #003087;
+    height: 40vh;
+}
+.sect3-txt3{
+    border: brown;
+    text-align: center;
+    padding: 65px 0px 0px 0px;
+    font-size: 42px;
+    color: #FFFFFF;
 }
 .sect4{
-    background-color: #003087;
-}
-.mainp{
-    border: thin solid red;
-    padding: 80px 280px 40px 280px;
-    font-size: xx-large;
-    color: #FFFFFF;
-    border: none;
-}
-.maindiv{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    border: thin solid black;
+    padding: 20px 0px 0px 0px;
 }
-.secth5{
-    font-size: 32px;
-    color: white;
-}
-.sect4p{
-    font-size: 18px;
-    color: #FFFFFF;
+.sect4-txt1{
+    font-size: 28px;
 }
 .sect4a{
-    color: #FFFFFF;
-} 
+    color: #0070BA;
+}
 .sect5{
-    border: 2px solid green;
-    padding: 100px 500px;
-    border: none;
+    background-color: #333333;
+    text-align: center;
 }
-.secth5{
-    border: thin solid black;
-    padding: 10px 20px;
-    color: black;
-    border: none;
-}
-.sect5-btn{
-    padding: 15px 100px;
-    border-radius: 25px;
-    background-color: #0070BA;
-    border: none;
-}
-.sect5a{
-    color: #FFFFFF;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer{
     border: thin solid blue;
     padding: 70px 50px;
@@ -302,6 +253,7 @@ footer{
     display: flex;
     justify-content: space-around;
     gap: 1em;
+    list-style-type: none;
 }
 .nig-logo{
     height: 3vh;
@@ -320,11 +272,13 @@ hr{
     display: flex;
     justify-content: space-around;
     gap: 1em;
+    list-style-type: none;
 }
 .rgt-lst{
     display: flex;
     justify-content: space-around;
     gap: 1em;
+    list-style-type: none;
 }
 .ftr-p{
     font-size: 12px;
