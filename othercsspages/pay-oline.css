@@ -122,171 +122,213 @@ nav{
         width: 100px;
     }
 } 
-section{
-    width: 100%;
+.hero{
+    background-image: url(../images/buy-oline-6.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
 }
-.hero-img{
-    position: relative;
-    height: 75vh;
-}
-.txt1{
+.hero-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8em;
     position: absolute;
-    top: 400px;
-    right: 400px;
-    font-size: 36px;
-    color: white;
+    top: 133px;
+    left: 100px;
+}
+.hero-left{
+    border: thin solid black;
+    padding: 0px 30px 10px 0px;
+    border: none;
+}
+.chk-out{
+    font-size: 32px;
 }
 .hero-btn{
-    position: absolute;
-    padding: 15px 80px;
-    border-radius: 40px;
-    border: none;
+    padding: 10px 70px;
+    border-radius: 35px;
     background-color: #0070BA;
-    position: absolute;
-    bottom: 200px;
-    left: 500px;
-    right: 500px;
-    color: white;
-    font-size: 16px;
+    border: thick solid #0070BA;
 }
-.txt2{
-    position: absolute;
-    color: white;
-    position: absolute;
-    left: 500px;
-    bottom: 160px;
+.hero-btna{
+    color: #FFFFFF;
 }
-.sect2{
-    border: thin solid black;
-    height: 50vh;
-    position: relative;
-    background-color: #FFFFFF;
-    
+.anchor{
+    color: #0070BA;
 }
-.pp{
-    font-size: 32px;
-    position: absolute;
-    top: 20px;
-    left: 300px;
+.herob{
+     background-color: #333333;
 }
-.sect2-img{
-    position: absolute;
-    top: 100px;
-    left: 500px;
-}
-.ind{
-    font-size: 22px;
-    position: absolute;
-    top: 200px;
-    left: 500px;
-} 
-.fin{
-    font-size: 18px;
-    position: absolute;
-    bottom: 100px;
-    left: 300px;
-}
-.sect2-btn{
-    padding: 20px 60px;
-    border-radius: 30px;
-    border: thin solid #0070BA;
-    position: absolute;
-    bottom: 10px;
-    left: 450px;
-}
-
-
-
-
-
-
-
-/* -----media query----- */
-.sect3{
-    height: 70vh;
-    background-color: #F7F9FA;    
-}
-.sectp31{
-    border: thin solid red;
-    padding: 70px 400px 30px;
-    font-size: 32px;
-    border: none;
-}
-.sectp32{
-    border: thin solid blue;
-    padding: 20px 600px 0px;
-    border: none;
-}
-.sect3-list{
+.hero-b{
     display: flex;
     justify-content: space-around;
-    border: thin solid red;
-    padding: 60px;
-    border: none;
+    padding: 40px 50px;
+    width: 100%;
+    align-items: center;
 }
-.sect3-btn{
-    padding: 20px 80px;
-    border-radius: 40px;
-    background-color: transparent;
-    border-color: #0070BA;
-    color: #0070BA;
-    border: thin solid #0070BA;
-    /* border: none; */
-    margin-bottom: 20px;
+.alph{
+    border: thin solid white;
+    padding: 15px 15px;
+    border-radius: 30px;
+    color: #FFFFFF;
 }
-.div3{
-    border: thin solid black;
-    padding: 0px 500px;
-    border: none;
-} 
-.anchor3{
-    color: #0070BA;
+.txt{
+    color: #FFFFFF;
 }
-.sect4{
+.heroc{
+    padding: 100px 100px;
+    text-align: center;
+}
+.p2a{
+    font-size: 32px;
+}
+.herod{
+    background-image: url(../images/buy-oline-3.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+.herod-img{
+    position: relative;
+}
+.herod-txt1{
+    position: absolute;
+    top: 1200px;
+    right: 250px;
+    font-size: 22px;
+}
+.herod-txt2{
+    position: absolute;
+    top: 1230px;
+    right: 130px;
+}
+.herod-txt3{
+    position: absolute;
+    top: 1280px;
+    right: 360px;
+    font-weight: 600;
+}
+.heroda{
+     color: #005EA6;
+}
+.sect2div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sect2p1{
+    font-size: 26px;
+}
+.sect2p2{
+    font-size: 18px;
+}
+.sect2b{
     background-color: #003087;
 }
-.mainp{
-    border: thin solid red;
-    padding: 80px 280px 40px 280px;
-    font-size: xx-large;
+.sect2bp{
+    padding: 80px;
+    text-align: center;
     color: #FFFFFF;
-    border: none;
+    font-size: 44px;
 }
-.maindiv{
+.sect2c{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding: 100px 10px 0px;
 }
-.secth5{
+.sect2cp1{
+    font-size: 32px;
+}
+.sect2cp3{
+    color: #0070BA;
+}
+.sect2d{
+    background-image:url(../images/buy-oline-1a.webp);
+    border: thin solid black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    position: relative;
+}
+.sect2d-txt1{
+    font-size: 32px;
+    padding: 40px;
+    position: absolute;
+    color: #F7F9FA;
+    top: 180px;
+    left: 80px;
+}
+.sect2d-txt2{
+    position: absolute;
+    color: #F7F9FA;
+    top: 270px;
+    left: 120px;
+}
+.sect2e{
+    text-align: center;
+}
+.sect2e-txt{
+    color: #0070BA;
+    border: 2px solid black;
+    padding: 70px 50px 60px 50px;
+    font-size: 34px;
+    border: none;
+}
+.box{
+    border: thin solid pink;
+    padding: 70px;
+    border: none;
+}
+.sect5{
+    background-color: #333333;
+    text-align: center;
+}
+.sect5-txt1{
     font-size: 32px;
     color: white;
 }
-.sect4p{
+.sect5-txt2{
     font-size: 18px;
     color: #FFFFFF;
 }
-.sect4a{
+.sect5-txt3{
     color: #FFFFFF;
-} 
-.sect5{
-    border: 2px solid green;
-    padding: 100px 500px;
+}
+.last-sect{
+    background-color: #F7F9FA;
+}
+.last-part{
+    border: thin solid yellow;
+    padding: 90px;
+    text-align: center;
     border: none;
 }
-.secth5{
-    border: thin solid black;
-    padding: 10px 20px;
-    color: #FFFFFF;
-    border: none;
+.lastp{
+    font-size: 28px;
 }
-.sect5-btn{
-    padding: 15px 100px;
-    border-radius: 25px;
+.last-btn{
+    border: thick solid #0070BA;
+    padding: 10px 120px;
+    border-radius: 20px;
     background-color: #0070BA;
-    border: none;
 }
-.sect5a{
+.last-btna{
     color: #FFFFFF;
 }
+
+
+
+
+
+
+
+
+
 footer{
     border: thin solid blue;
     padding: 70px 50px;
@@ -302,6 +344,7 @@ footer{
     display: flex;
     justify-content: space-around;
     gap: 1em;
+    list-style-type: none;
 }
 .nig-logo{
     height: 3vh;
@@ -320,11 +363,13 @@ hr{
     display: flex;
     justify-content: space-around;
     gap: 1em;
+    list-style-type: none;
 }
 .rgt-lst{
     display: flex;
     justify-content: space-around;
     gap: 1em;
+    list-style-type: none;
 }
 .ftr-p{
     font-size: 12px;

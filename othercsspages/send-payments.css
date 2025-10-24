@@ -218,17 +218,47 @@ section{
 .sect4a{
     color: #0070BA;
 }
+.box{
+    border: thin solid pink;
+    padding: 70px;
+    border: none;
+}
 .sect5{
     background-color: #333333;
     text-align: center;
 }
-
-
-
-
-
-
-
+.sect5-txt1{
+    font-size: 32px;
+    color: white;
+}
+.sect5-txt2{
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.sect5-txt3{
+    color: #FFFFFF;
+}
+.last-sect{
+    background-color: #F7F9FA;
+}
+.last-part{
+    border: thin solid yellow;
+    padding: 90px;
+    text-align: center;
+    border: none;
+}
+.lastp{
+    font-size: 28px;
+}
+.last-btn{
+    border: thick solid #0070BA;
+    padding: 10px 120px;
+    border-radius: 20px;
+    background-color: #0070BA;
+}
+.last-btna{
+    color: #FFFFFF;
+}
 
 
 

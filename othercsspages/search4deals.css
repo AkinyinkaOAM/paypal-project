@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+nav{
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+    margin: auto;
+    background-color: white;
+    padding: 20px 10px;
+    border: none;
+}
+.btns{
+
+    gap: 20px;
+}
+.btn{
+    border: thin solid blue;
+    padding: 10px 20px;
+    border-radius: 17px;
+}
+.log-in{
+    background-color: transparent;
+}
+.login{
+    color: #005EA6;
+}
+.sign-up{
+    background-color: #0070BA;
+}
+.signup{
+    color: white;
+}
+.txt{
+    height: 90vh;
+    background-color: #F5F7FA;
+}
+.txt1{
+    font-size: 36px;
+    text-align: center;
+    padding: 80px 10px;
+}
+.txt2{
+    font-size: 28px;
+    text-align: center;
+    padding: 20px;
+}
+.txt3{
+    font-size: 32px;
+    text-align: center;
+    padding: 40px;
+}
+.txt4{
+    font-size: 28px;
+    text-align: center;
+    padding: 40px;
+}
+.main-txt{
+    text-align: center;
+    padding: 40px 10px;
+    font-size: 34px;
+}
+.sect2-txt{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    align-items: center;
+}
+.left-img{
+    padding: 0px 140px;
+}
+.left-txt1{
+    text-align: center;
+}
+.left-txt2{
+    text-align: center;
+}
+.left-txt3{
+    text-align: center;
+}
+.right-img{
+    padding: 0px 140px;
+}
+.right-txt1{
+    text-align: center;
+}
+.right-txt2{
+    text-align: center;
+}
+.right-txt3{
+    text-align: center;
+}
+.right-txt4{
+    text-align: center;
+}
+.last-sect{
+    background-color: #005EA6;
+}
+.last-part{
+    border: thin solid yellow;
+    padding: 70px;
+    text-align: center;
+    border: none;
+}
+.lastp{
+    font-size: 38px;
+}
+.last-txt{
+    padding: 20px 0px 10px;
+}
+.last-btn{
+    border: thick solid #0070BA;
+    padding: 10px 120px;
+    border-radius: 20px;
+    background-color: #F5F7FA;
+    border: none;
+}
+.last-btna{
+    color: black;
+}
+.lst{
+    text-align: center;
+    padding: 40px 10px 20px;
+    font-size: 38px;
+}
+.img{
+    padding: 20px 400px 40px 500px;
+}
+.lnk{
+    font-size: 12px;
+    text-align: left;
+    padding: 0px 0px 0px 110px;
+}
+.lst-p{
+    font-size: 14px;
+    text-align: left;
+    padding: 0px 0px 0px 110px;
+}
+footer{
+    border: thin solid blue;
+    padding: 70px 50px;
+    border: none;
+}
+.top-ftr{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.top-lst{
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+    list-style-type: none;
+}
+.nig-logo{
+    height: 3vh;
+}
+hr{
+    width: 80%;
+    margin: auto;
+}
+.dwn-ftr{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.lft-lst{
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+    list-style-type: none;
+}
+.rgt-lst{
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+    list-style-type: none;
+}
+.ftr-p{
+    font-size: 12px;
+    margin: 0px 0px 0px 120px;
+}
+.ftra{
+    color: black;
+}
